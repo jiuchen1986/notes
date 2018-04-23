@@ -114,9 +114,9 @@ In the Fedora OS and other common distributions, such as Ubuntu, or Red Hat Ente
 
 For other kernel builds, options which should be enabled for DPDK include:
 
-    - HUGETLBFS
-    - PROC_PAGE_MONITOR support
-    - HPET and HPET_MMAP configuration options should also be enabled if HPET support is required. See the section on High Precision Event Timer (HPET) Functionality ([http://www.dpdk.org/doc/guides/linux_gsg/enable_func.html#high-precision-event-timer](http://www.dpdk.org/doc/guides/linux_gsg/enable_func.html#high-precision-event-timer)) for more details.
+1. HUGETLBFS
+2. PROC_PAGE_MONITOR support
+3. HPET and HPET_MMAP configuration options should also be enabled if HPET support is required. See the section on High Precision Event Timer (HPET) Functionality ([http://www.dpdk.org/doc/guides/linux_gsg/enable_func.html#high-precision-event-timer](http://www.dpdk.org/doc/guides/linux_gsg/enable_func.html#high-precision-event-timer)) for more details.
 
 
 #### Use of Hugepages in the Linux Environment
